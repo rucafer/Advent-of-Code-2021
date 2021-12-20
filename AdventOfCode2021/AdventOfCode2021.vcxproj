@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Solutions\Day17.h" />
     <ClInclude Include="src\Solutions\Day16.h" />
     <ClInclude Include="src\Solutions\Day15.h" />
     <ClInclude Include="src\Solutions\Day14.h" />
@@ -39,6 +40,7 @@
     <ClInclude Include="src\Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Solutions\Day17.cpp" />
     <ClCompile Include="src\Solutions\Day16.cpp" />
     <ClCompile Include="src\Solutions\Day15.cpp" />
     <ClCompile Include="src\Solutions\Day14.cpp" />

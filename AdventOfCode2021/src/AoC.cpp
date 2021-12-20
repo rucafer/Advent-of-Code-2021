@@ -21,6 +21,7 @@
 #include "Solutions/Day14.h"
 #include "Solutions/Day15.h"
 #include "Solutions/Day16.h"
+#include "Solutions/Day17.h"
 
 static std::vector<Day*> daysList;
 
@@ -43,6 +44,7 @@ static void AddDays()
 	daysList.push_back(new Day14("./Inputs/Day14_1.txt"));
 	daysList.push_back(new Day15("./Inputs/Day15_1.txt"));
 	daysList.push_back(new Day16("./Inputs/Day16_1.txt"));
+	daysList.push_back(new Day17("./Inputs/Day17_1.txt"));
 }
 
 static void runDay(Day* day)
